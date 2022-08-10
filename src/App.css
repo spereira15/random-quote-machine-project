@@ -1,0 +1,57 @@
+:root {
+  --cadetBlue: #5F9EA0;
+  --steelBlue: #4682B4;
+  --lightSteelBlue: #B0C4DE;
+  --powderBlue: #B0E0E6;
+  --twitterBlue: #1DA1F2;
+}
+
+body {
+  background-color: var(--steelBlue);
+}
+
+.container {
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 600px;
+  height: 410px;
+}
+
+#quote-box {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 350px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+#buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+#quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 16%;
+  max-height: 250px
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  font-family: serif;
+}
+
+#text {
+  font-size: 36px;
+}
+
+#tweet-button {
+  background-color: var(--twitterBlue);
+}
